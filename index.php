@@ -1,6 +1,5 @@
 <?php 
 session_start();
-include_once 'dbconnect.php';
 
 ?>
 
@@ -27,19 +26,18 @@ include_once 'dbconnect.php';
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<meta name="description" content="<?php echo $meta_description; ?>">
-<meta name="keywords" content="<?php echo $meta_description; ?>">
+<meta name="description" content="">
+<meta name="keywords" content="">
 <meta name="author" content="Dipan Roy">
 <meta name="content-type" content="text/html">
 
 <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="<?php echo $meta_color; ?>">
+<meta name="theme-color" content="">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="<?php echo $meta_color; ?>>">
+<meta name="msapplication-navbutton-color" content="">
 <!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="<?php echo $meta_color; ?>">
+<meta name="apple-mobile-web-app-status-bar-style" content="">
 
-<?php echo $metaTag1; ?>
 
 <style>
 	.blur {
